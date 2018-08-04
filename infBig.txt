@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------------
+- This file contains additional optional arguments.
+-
+- Replacing any of these with 'default' will allow the program to use its own values.
+-
+- The arguments, their types, and their defaults are:
+-        radius of bodies, double, 10.0
+-        delta time per increment, double, 1.0
+-        gravity multiplier, double, 1.0
+-        maximum starting velocity of randomely generated bodies, int, 25
+-        seed for random generation, long, 12345678
+-        graphics mode, boolean, false
+-        infinite mode, boolean, false
+-        nudge mode, boolean, true
+-        filename for detailed output, string, "output.txt"
+-            [note: if no output file is desired, use "none"]
+-------------------------------------------------------------------------------------
+40.0
+default
+default
+default
+default
+true
+true
+default
+default
+-------------------------------------------------------------------------------------
+- Initial Body Information
+-
+- Formatting of body information must be (pos-x,pos-y)(vel-x,vel-y)
+-
+- If specific information about some or all of the bodies is not supplied, it will be
+- be randomly generated.
+--------------------------------------------------------------------------------------
